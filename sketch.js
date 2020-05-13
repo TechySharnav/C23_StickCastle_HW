@@ -41,8 +41,8 @@ function setup() {
 	small_box4 = new Box(pos_x + 750, pos_y - 400, 90, 30);
 	small_box5 = new Box(pos_x + 750, pos_y - 500, 45, 12);
 
-	tri1 = new Triangle(pos_x + wall1.width + 630, pos_y - 600, 3, 2);
-	tri2 = new Triangle(pos_x, pos_y - 800, 3, 5);
+	tri1 = new Triangle(pos_x + wall1.width + 630, pos_y - 600, 4, 60);
+	tri2 = new Triangle(pos_x, pos_y - 600, 4, 165);
 }
 
 function draw() {
