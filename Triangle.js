@@ -14,7 +14,7 @@ class Triangle {
 	display(width, height) {
 		var pos = this.body.position;
 
-		fill(0);
+		fill('#fcce45');
 		triangle(pos.x, pos.y, pos.x - width, pos.y + height, pos.x + width, pos.y + height);
 	}
 }
